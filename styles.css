@@ -14,23 +14,13 @@ main {
     grid-template-columns: 1.51fr 2fr 1.5fr;
     align-items: center;
     padding: 92px 51px 89px;
-    @font-face{font-family:"RalewayRegular";
-      src:url('fonts/mycotext_rg.eot');
-      src:url('fonts/mycotext_rg.eot?#iefix') format('eot'),
-          url('fonts/mycotext_rg.woff') format('woff'),
-          url('fonts/mycotext_rg.ttf') format('truetype'),
-          url('fonts/mycotext_rg.svg') format('svg');
-      font-weight:"normal"}
+    
+    }
+    
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
 
-      @font-face{font-family:"RalewayBold";
-        src:url('fonts/mycotext_rg.eot');
-        src:url('fonts/mycotext_rg.eot?#iefix') format('eot'),
-            url('fonts/mycotext_rg.woff') format('woff'), 
-            url('fonts/mycotext_rg.ttf') format('truetype'),
-            url('fonts/mycotext_rg.svg') format('svg');
-        font-weight:"normal"}
-  }
-  
   .header__links-list {
     display: flex;
     gap: 32px;
@@ -76,6 +66,10 @@ main {
   .header__address {
     justify-self: end;
     font-style: inherit;
+    padding-right: 54px;
+    width: 278px;
+    font-family: 'Raleway';
+    font-weight: 400;
   }
   
   .address__item {
@@ -314,14 +308,26 @@ main {
     border-radius: 50%;
     background-color: #000000;
   }
-  
+  #circle {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 80%;
+    background-color: #000000;
+    background-image: url(https://raw.githubusercontent.com/MikeBeloborodov/ono-tebe-nado/efddb2bde91a30f6563ca37facb66381c0b95948/images/logo-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+  }
   .about__logo-image {
     position: absolute;
     width: 240px;
     height: 240px;
     left: 47px;
     top: 35px;
-    
   }
   
   .about__title {
