@@ -1,4 +1,4 @@
-https://github.com/MikeBeloborodov/ono-tebe-nado
+https://github.com/VladPixel-ru/first-project
 
 # Яндекс Практикум, 1 спринт, проект "Оно тебе надо"
 
