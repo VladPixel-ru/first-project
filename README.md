@@ -12,7 +12,7 @@ https://github.com/VladPixel-ru/first-project
 
 ### Скриншот
 
-![](screenshot.png)
+(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/screenshot.png?raw=true)
 
 ### Макет
 
