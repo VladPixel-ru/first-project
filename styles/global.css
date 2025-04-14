@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  min-width: 1100px;
-  margin: 0;
+  width: 1100px;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
@@ -26,4 +26,7 @@ blockquote {
 
 a {
   color: inherit;
+}
+img {
+  width: 100%;
 }
